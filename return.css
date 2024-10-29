@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+/* Header section */
+header {
+    background-color: #232f3e;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+header .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+header .search-bar button {
+    padding: 10px 20px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+header .nav-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main content section */
+.orders-section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orders-section h1 {
+    margin-bottom: 10px;
+}
+
+.orders-section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.order-item h3 {
+    margin: 0;
+}
+
+.order-item p {
+    color: #888;
+    margin-top: 5px;
+}
+
+.order-details {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.order-details img {
+    width: 100px;
+    height: auto;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.order-action {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.order-action:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
